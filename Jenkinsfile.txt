@@ -38,6 +38,11 @@ pipeline {
             steps {
                 echo "CONGRATULYACIYA!"
             }
+        }
+        stage('5-GOTOVO') {
+            steps {
+                echo "SUPER SCM!"
+            }
         }	
     }
 }
